@@ -1,0 +1,148 @@
+.tabClass {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: gray;
+}
+
+.tabTapClass {
+	padding: 10px;
+	color: white;
+	margin: 10px;
+}
+
+.introContainer {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	margin-left: 5px;
+}
+
+.introRow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+}
+
+.introH5 {
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+	margin-left: 10px; 
+	margin-right: 0.2em;
+}
+
+.sectionHeaderContainer {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	margin-left: 5px;
+	background-color: lightgray;
+}
+
+.sectionHeaderTitle {
+	color: blue; 
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+.sectionHeaderLine {
+	width: 97%;
+	size: 1;
+	color: black;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+table {
+	width:99%; 
+	margin:10px;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #dddddd;
+  	text-align: left;
+  	padding: 8px;
+}
+
+.professionalExperienceCompany {
+	display: flex;
+	flex-direction: column;
+	background-color: gray;
+	min-width: 25%;
+	padding-bottom: 100%;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.professionalExperienceCompanyTap {
+	padding: 10px;
+	color: white;
+	margin: 10px;
+	min-width: 25%;
+}
+
+.horizontalDivider {
+	width: 99%;
+	size: 1;
+	color: black;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.verticalDivider {
+	border-right: 1px solid black;
+  	height: 30px;
+  	margin-left: 0px;
+  	margin-right: 0px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.project{
+	float: left;
+}
+
+.projectRow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.projectH5 {
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+	margin-left: 10px; 
+	margin-right: 10px;
+	white-space: pre;
+}
+
+.alignTextTop {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.alignTextBottom {
+	padding-top: 10px;
+	margin-top: 0px;
+}
+
+.underLineText {
+	text-decoration: underline;
+}
+
+.flexColumnDirection {
+	display:flex; 
+	flex-direction: column;
+}
+
+.flexRowDirection {
+	display:flex; 
+	flex-direction: row;
+}
