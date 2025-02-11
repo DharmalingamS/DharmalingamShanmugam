@@ -3,6 +3,8 @@
 function onLoadInitialSetUp() {
 	setInitialSelectedTab();
 
+	screenResized();
+	
 	let element = document.getElementById("Harman Connected Services");
 	element.style.display = "none";
 	element = document.getElementById("Sourcebits Technologies");
@@ -13,8 +15,6 @@ function onLoadInitialSetUp() {
 	element.style.textUnderlineOffset = "5px";
 
 	window.addEventListener("resize", screenResized);
-
-	screenResized();
 }
 
 function setInitialSelectedTab() {
