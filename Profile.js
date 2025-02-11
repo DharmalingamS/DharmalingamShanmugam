@@ -93,7 +93,7 @@ function didSelectedCompany(companyID) {
 
 
 function screenResized(event) {
-	let width = screen.width;
+	let width = window.innerWidth;
 	//screen.width;//document.body.clientWidth;
 	//debugger
   	if (width <= 400) {
