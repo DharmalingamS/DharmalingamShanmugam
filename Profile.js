@@ -93,7 +93,8 @@ function didSelectedCompany(companyID) {
 
 
 function screenResized(event) {
-	let width = document.body.clientWidth;//screen.width;//document.body.clientWidth;
+	let width = document.body.clientWidth;
+	//screen.width;//document.body.clientWidth;
 	debugger
   	if (width <= 400) {
   		let tabParents = document.getElementsByClassName("tabClass");
