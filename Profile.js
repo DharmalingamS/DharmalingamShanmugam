@@ -95,7 +95,7 @@ function didSelectedCompany(companyID) {
 function screenResized(event) {
 	let width = screen.width;
 	//screen.width;//document.body.clientWidth;
-	debugger
+	//debugger
   	if (width <= 400) {
   		let tabParents = document.getElementsByClassName("tabClass");
   		tabParents[0].style.flexDirection = "column";
